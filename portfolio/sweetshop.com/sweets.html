@@ -1,0 +1,551 @@
+<!doctype html>
+<html>
+<head>
+<title>
+Homepage
+</title>
+<style>
+header{
+width:100%;
+height:50px;
+float:left;
+box-sizing:border-box;
+padding:6px;
+}
+body{
+padding:0;
+margin:0;
+}
+#brand{
+padding:0;
+margin:0;
+font-family:sans-serif;
+float:left;
+margin=left:24px;
+}
+#tagline{
+float:right;
+padding:0;
+margin:0;
+margin-top:10px;
+font-family:century gothic;
+margin-right:24px;
+}
+
+
+nav{
+width:100%;
+height:106px;
+background-color:blue;
+float:left;
+box-sizing:border-box;
+padding:30px;
+}
+#search{
+width:400px;
+height:40px;
+float:left;
+box-sizing:border-box;
+border:none;
+font-size:15px;
+padding:10px;
+}
+#search-btn{
+width:100px;
+height:40px;
+float:left;
+box-sizing:border-box;
+border:none;
+margin-left:3px;
+font-size:16px;
+padding:10px;
+}
+#menu_table{
+width:600px;
+height:40px;
+float:right;
+box-sizing:border-box;
+}
+#menu_item{
+background-color:white;
+width:20%;
+text-align:center;
+}
+a{
+color:black;
+text-decoration:none;
+font-family:sans-serif;
+}
+section{
+width:100%;
+height:1650px;
+float:left;
+box-sizing:border-box;
+border-width:1px;
+border-style:solid;
+border-color:blue;
+padding:30px;
+}
+#Venue{
+float:left;
+}
+#phone{
+float:right;
+}
+#popular_sweet_box{
+width:720px;
+height:550px;
+float:left;
+box-sizing:border-box;
+background-color:black;
+margin-top:30px;
+}
+#popular_sweet_title{
+color:white;
+text-align:center;
+font-size:30px;
+font-family:sans-serif;
+margin:0px;
+padding:0px;
+}
+#popular_sweet_images{
+width:300px;
+height:200px;
+margin:15px;
+border-width:5px;
+border-style:solid;
+border-color:red;
+box-sizing:border-box;
+}
+#rate_list_box{
+width:400px;
+height:550px;
+float:right;
+box-sizing:border-box;
+margin-top:30px;
+}
+#rate_header{
+height:50px;
+background-color:black;
+color:white;
+text-align:center;
+font-family:century gothic;
+font-size:25px;
+}
+#rate_content{
+background-color:blue;
+}
+#Name{
+font-size:22px;
+color:white;
+font-family:century gothic;
+padding:10px;
+border-bottom-width:2px;
+border-bottom-style:solid;
+border-bottom-color:white;
+}
+#price{
+list-style:none;
+}
+fieldset{
+width:690px;
+height:550px;
+float:left;
+margin-top:50px;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+padding:10px;
+}
+legend{
+font-family:century gothic;
+font-size;30px;
+font-weight:bold;
+}
+#order_online{
+font-size:17px;
+font-family:sans-serif;
+}
+#Order_input{
+width:100%;
+height:35px;
+box-sizing:border-box;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+margin-top:5px;
+}
+textarea{
+width:100%;
+height:100px;
+box-sizing:border-box;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+}
+#submit_btn{
+padding:10px;
+font-size:20px;
+float:right;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+background-color:white;
+}
+#abt_us{
+width:450px;
+height:560px;
+float:right;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+margin-top:60px;
+padding:20px;
+box-sizing:border-box;
+}
+#abt-title{
+text-align:center;
+font-family:century gothic;
+font-size:30px;
+}
+#abt_text{
+text-align:justify;
+font-family:sans-serif;
+line-height:25px;
+}
+#m_sweets{
+float:left;
+width:100%;
+box-sizing:border-box;
+}
+#more_sweets{
+text-align:center;
+font-family:century gothic;
+font-size:30px;
+}
+#sweets{
+width:200px;
+height:200px;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+float:left;
+margin-right:35px;
+margin-bottom:50px;
+}
+#sweets_end{
+width:200px;
+height:200px;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+float:left;
+}
+#sweet_pic{
+width:200px;
+height:160px;
+}
+#buy_btn{
+padding:10px;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+width:100px;
+background-color:white;
+}
+footer{
+width:100%;
+height:250px;
+box-sizing:border-box;
+float:left;
+background-color:black;
+}
+#contact_us{
+width:400px;
+height:250px;
+box-sizing:border-box;
+float:left;
+border-width:1px;
+border-style:solid;
+border-color:red;
+}
+#social_link{
+width:400px;
+height:250px;
+box-sizing:border-box;
+float:right;
+border-width:1px;
+border-style:solid;
+border-color:red;
+}
+#contact_us{
+color:white;
+font-family:sans-serif;
+padding:10px;
+padding-left:30px;
+}
+#Contact_details{
+color:white;
+font-size:20px;
+font-family:sans-serif;
+font-style:normal;
+margin-bottom:10px;
+}
+#developer{
+float:left;
+width:60px;
+color:white;
+font-family:sans-serif;
+padding:10px;
+padding-left:30px;
+font-size:30px;
+position:relative;
+top:30px;
+right:30px;
+left:60px;
+}
+#social_link{
+color:white;
+font-family:sans-serif;
+padding:10px;
+padding-left:30px;
+#social_logo{
+width:60px;
+margin-top:20px;
+padding:5px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1 id="brand">Sweetshop.com</h1>
+<p id="tagline">The World's Largest Sweets & bakeries shop</p>
+</header>
+<nav>
+<form>
+<input type="search" name="search" placeholder="Search your sweets here"
+id="search">
+<input type="submit" id="search-btn" value="search">
+</form>
+<table id="menu_table">
+<tr>
+<td id="menu_item"><a href="index.html">Home</a></td>
+<td id="menu_item"><a href="sweets.html">Sweets</a></td>
+<td id="menu_item"><a href="#contact_us">Bakeries</a></td>
+<td id="menu_item"><a href="#abt_text">About us</a></td>
+<td id="menu_item"><a href="#contact_us">Contact Us</a></td>
+</tr>
+</table>
+</nav>
+<section>
+<div id="m_sweets">
+<h1 id="more_sweets">More Sweets</h1>
+</div>
+<div id="sweets">
+<img src="images/e.jpg" id="sweet_pic">
+<center>
+<a href="index.html#frm_box" ><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/f.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/b.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/c.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/a.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+
+<div id="sweets">
+<img src="images/f.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/b.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/c.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/a.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+
+<div id="sweets">
+<img src="images/f.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/b.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/c.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/a.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+
+<div id="sweets">
+<img src="images/f.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/b.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/c.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/a.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+
+<div id="sweets">
+<img src="images/f.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/b.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/c.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/a.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+
+<div id="sweets">
+<img src="images/f.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/b.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/c.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/a.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+
+<div id="sweets">
+<img src="images/f.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/b.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/c.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/a.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+<div id="sweets">
+<img src="images/d.jpg" id="sweet_pic">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy Now</button></a>
+</center>
+</div>
+
+
+</section>
+<footer>
+<div id="contact_us">
+<h1 id="Contact_title">Contact Us</h1>
+<address id="Contact_details">Website : Sweetshop.Com</address>
+<address id="Contact_details">Phone No : +91 8586008789</address>
+<address id="Contact_details">Email : ps7379791@gmail.com</address>
+<address id="Contact_details">Address : Patel Nagar New Delhi</address>
+</div>
+<div id="developer">Developed By Preeti Singh</div>
+<div id="social_link">
+<h1 id="Contact_title">Follow Us</h1>
+<a href="#"><img src="images/face.png" id="social_logo"></a>
+<a href="#"><img src="images/insta.jpg" id="social_logo">
+<a href="#"><img src="images/twitter.png" id="social_logo">
+<a href="#"><img src="images/youtube.png" id="social_logo">
+</div>
+</footer>
+</body>
+</html>
